@@ -15,7 +15,7 @@ import logo from "./logo.png";
 import logo_dark from "./logo.png";
 import mail_icon from "./mail_icon.png";
 import mail_icon_dark from "./mail_icon_dark.png";
-import profile_img from "./Profile.png"; 
+import profile_img from "./Profile.png";
 import download_icon from "./download-icon.png";
 import hand_icon from "./hand-icon.png";
 import header_bg_color from "./header-bg-color.png";
@@ -83,47 +83,64 @@ export const workData = [
     bgImage: "/work-1.png",
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
+    title: "Frontend project",
+    description: "Todo List",
     bgImage: "/work-2.png",
+    link: "https://react-js-eta-seven.vercel.app/",
   },
   {
-    title: "Photography site",
-    description: "Web Design",
+    title: "web design",
+    description: "Tic Tac Toe game",
     bgImage: "/work-3.png",
+    link: "https://tic-tac-toe-six-lake-49.vercel.app/",
   },
   {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
+    title: "frontend project",
+    description: "Brand page",
     bgImage: "/work-4.png",
+    link: "https://sparkling-scone-6e4241.netlify.app/",
   },
 ];
 
 export const serviceData = [
   {
     icon: assets.web_icon,
-    title: "Web design",
-    description: "Web development is the process of building, programming...",
-    link: "",
-  },
-  {
-    icon: assets.mobile_icon,
-    title: "Mobile app",
+    title: "Custom Web Development",
     description:
-      "Mobile app development involves creating software for mobile devices...",
+      "Responsive and interactive websites using HTML, CSS, JavaScript, React.js, and Node.js.",
     link: "",
   },
+
   {
     icon: assets.ui_icon,
-    title: "UI/UX design",
+    title: "Frontend Development",
     description:
-      "UI/UX design focuses on creating a seamless user experience...",
+      "Modern UI/UX design with React.js and seamless user experiences.",
     link: "",
   },
   {
     icon: assets.graphics_icon,
-    title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
+    title: "Website Optimization",
+    description: "Performance tuning for faster and optimized websites.",
+    link: "",
+  },
+  {
+    icon: assets.web_icon,
+    title: "Bug Fixing & Technical Support",
+    description: "Troubleshooting and resolving web-based system issues.",
+    link: "",
+  },
+  {
+    icon: assets.web_icon,
+    title: "API Integration",
+    description: "Efficient RESTful API development and integration.",
+    link: "",
+  },
+  {
+    icon: assets.web_icon,
+    title: "SEO Optimization",
+    description:
+      "Search engine-friendly website development to improve online visibility",
     link: "",
   },
 ];
@@ -133,7 +150,7 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
-    description: "HTML, CSS, JavaScript React Js, Next Js",
+    description: " C, HTML, CSS, JavaScript, React Js, Next Js",
   },
   {
     icon: assets.edu_icon,
@@ -145,7 +162,7 @@ export const infoList = [
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projects",
-    description: "Built more than 5 projects",
+    description: "Built more than 3 projects",
   },
 ];
 
