@@ -150,7 +150,7 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
-    description: " C, HTML, CSS, JavaScript, React Js, Next Js",
+    description: "JavaScript, React Js, Next Js, Python, HTML, CSS, C"
   },
   {
     icon: assets.edu_icon,
