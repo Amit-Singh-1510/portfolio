@@ -79,8 +79,9 @@ export const assets = {
 export const workData = [
   {
     title: "Frontend project",
-    description: "Web Design",
+    description: "Habit Tracker",
     bgImage: "/work-1.png",
+    link: "https://habit-tracker-lemon-five.vercel.app/",
   },
   {
     title: "Frontend project",
